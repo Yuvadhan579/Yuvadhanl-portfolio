@@ -1,0 +1,32 @@
+Yuvadhan L
+MCA Student | Machine Learning Enthusiast
+
+Email: yuvadhanl09@gmail.com
+Location: Mysore, India
+
+Professional Summary
+I am an MCA student passionate about Machine Learning, AI, and Web Development. I build ML models and full-stack applications.
+
+Featured Project
+Fuel Consumption Prediction
+- Decision Tree + Linear Regression
+- Python, Pandas, NumPy, Streamlit
+
+Skills
+- Python
+- C
+- C++
+- Java
+- React
+- Bootstrap
+- SQL
+- Machine Learning
+
+Certifications
+- Advanced Python
+- Full Stack ML Development
+- C++ and Java
+- Infosys certifications
+
+Note
+Replace this placeholder resume file with your final resume PDF whenever you are ready.
