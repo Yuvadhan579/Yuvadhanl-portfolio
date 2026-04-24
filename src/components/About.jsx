@@ -1,8 +1,9 @@
 import Reveal from './Reveal';
 import SectionHeading from './SectionHeading';
-
+import profile from '../assets/profile.jpg';
 function About({ about, focusAreas, email, location, role }) {
   return (
+    
     <section className="page-section" id="about">
       <div className="container">
         <SectionHeading
@@ -15,6 +16,20 @@ function About({ about, focusAreas, email, location, role }) {
           <div className="col-lg-7">
             <Reveal className="about-card" delay={80}>
               <span className="card-label">Profile</span>
+                <div className="text-center mb-4">
+                <img 
+                  src={profile} 
+                  alt="Profile" 
+                  className="rounded-circle shadow-lg"
+                  style={{ 
+                    width: "160px", 
+                    height: "160px", 
+                    objectFit: "cover"
+                  }}
+                />
+                <h5 className="mt-3 mb-0">Yuvadhan L</h5>
+                
+              </div>
               <h3>Who I Am</h3>
               <p className="section-copy">{about}</p>
               <p className="section-copy mb-0">
@@ -51,6 +66,7 @@ function About({ about, focusAreas, email, location, role }) {
               </ul>
             </Reveal>
           </div>
+          
         </div>
       </div>
     </section>
